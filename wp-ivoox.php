@@ -2,7 +2,7 @@
 /*
 Plugin Name: ivoox Shortcode
 Description: This pluging allows you to embed an ivoox audio in a post
-Plugin URI: http://temperatio.com/wp-ivoox
+Plugin URI: https://github.com/temperatio/wp-ivoox
 Author: César Gómez <cesar@temperatio.com>
 Author URI: http://www.cyberdespacio.org
 Version: 1.0
@@ -13,7 +13,7 @@ Domain Path: /lang
 
 /*
 
-    Copyright (C) 2013  César Gómez  cesar@temperatio.com
+    Copyright (C) 2013  César Gómez cesar@temperatio.com
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as
