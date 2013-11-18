@@ -89,7 +89,7 @@ class WPivoox {
         if(is_null($content)){
             return '<p style="font-style: italic;">' . __("You must provide an ivoox.com URL", "wp-ivoox") . '<p>';
         }
-        if (preg_match('/^http.+?_(.{2})_(.+?)_1\.html$/i', $content, $result)) {
+        if (preg_match('/^http.+?_(.{2})_(.+?)_1\.html(\?.*?)*$/i', $content, $result)) {
             $ivoox_id = $result[2];
             switch ($type) {
                 case 'mini':
